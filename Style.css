@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand';'https://fonts.googleapis.com/css?family=Philosopher');
+*{
+  margin: 0px;
+  padding: 0;
+  border:0;
+}
+
+
+#me{
+    margin: 0 0;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+   height: 750px;
+}
+
+.navbar-nav {
+  margin-left: 68%;
+  width: 100%;
+}
+.nav-item {
+  margin-right: 10%;
+}
+.navbar-toggler{
+  float: right;
+}
+
+.carousel-inner img{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+
+.banner h1{
+  font-family:philosopher;
+  font-size: 90px;
+  font-weight: bolder;
+}
+.banner-text{
+  margin-top: 170px;
+}
+
+
+/*---Start Of Navigation Bar---*/
+
+#logo{
+  margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---End Of Navigation Bar---*/
+/*---Start Of Banner---*/
+/*.banner{
+  height:835px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width:auto;
+  background-color: #9dc8c8;
+  display:flex;
+  font-size: %;
+  align-items: center;
+  padding: rem 0;
+}
+em{
+  margin-right:10px;
+}
+.banner img{
+  margin-left: 20%;
+  width: auto;
+  height: 450px;
+}
+
+.banner em{
+  color: black;
+  font-weight: ;
+  font-size: 1.875rem;
+
+}
+
+.banner-content h2{
+  color: black;
+  font-size: 8.5rem;
+  font-family: "Philosopher";
+  font-weight: 900;
+  line-height: 1;
+}
+.banner-content{
+  margin-right: auto;
+  margin-left: auto;
+}
+/*---End Of Banner---*/
+/*--- Start Of About---*/
+
+
+.proj-stuff{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+.about{
+  min-width:100%;
+
+}
+.inner-about p{
+  font-size: 25px;
+  margin: auto;
+  width: 70%;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+h1{
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+h3{
+  margin-bottom: 50px;
+}
+h4{
+  font-size:25px;
+
+}
+h5{
+  font-size:16px;
+}
+
+
+
+
+
+.col-md-2 img{
+  align: center;
+  width: 50%;
+  height:50%;
+  top: 50%;
+  bottom: 50%;
+  padding-top:10% ;
+  padding-bottom:5% ;
+}
+.col-md-3 img{
+  align: center;
+  width: 50%;
+  height:50%;
+  top: 50%;
+  bottom: 50%;
+  padding-top:10% ;
+  padding-bottom:5% ;
+}
+
+
+/* ----- */
+
+img .card-img-top{
+  height: 10%;
+
+}
+.card-block h3{
+  text-align: center;
+}
+.card-block{
+  padding-bottom: 10%;
+}
+
+
+/*---End Of 3 Rows ---*/
+/*---End Of About---*/
+/*---Start Of Projects---*/
+.projects h1{
+  color: white;
+}
+.thumbnail img{
+  opacity:0.3;
+}
+.thumbnail img:hover{
+  opacity:1.0;
+}
+.the-3-rows{
+  margin-bottom: 30px;
+}
+.rows{
+  padding-bottom: 30px;
+}
+.projects{
+  text-align: center;
+  background-color: #730D38;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/*---Start Of Footer ---*/
+.talk{
+  text-align: center;
+  background-color:#2c3e50 ;
+}
+
+
+.talk p{
+  color: grey;
+  padding-bottom:2%;
+}
+.talk h1{
+  color: white;
+  padding-bottom:60px;
+}
+
+
+#foot{
+  height:auto;
+  width: auto;
+}
+#contactme{
+  font-size: 30px;
+}
+#gmail{
+  font-size: 30px;
+}
+#gmail p a{
+  border-bottom: 2px solid #717070;
+  padding-bottom:20px;
+}
+#gmail  a {
+  text-decoration:none;
+  color: inherit;
+}
+.img-responsiveness{
+  opacity: 0.5;
+  max-width:60%;
+
+
+}
+.row li a{
+  text-decoration: none;
+  color: grey;
+  list-style: none;
+
+}
+.row{
+  padding-left:
+}
+.social{
+  padding: 0 0 0 0;
+}
+
+ .row li{
+   list-style: none;
+   display:inline;
+   margin:0 0 0 0;
+
+}
+
+.talk ul{
+  padding-left: 84%;
+  margin-bottom: 5%;
+}
+
+
+
+.facebook  a:hover{
+  color:#2e72c8;
+}
+.twitter  a:hover{
+  color:#72e5f8;
+}
+.instagram a:hover{
+  color:#ff98bf;
+}
+.linkedin  a:hover{
+  color:#00bcd4;
+}
+
+
+#bg-img{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.copywrite p{
+  text-align: center;
+  color: #d9dadb;
+padding-bottom: 10px;
+}
+.copywrite{
+
+    background: #2C3E50; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2C3E50, #335170); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2C3E50, #335170); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2C3E50, #335170); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2C3E50, #335170); /* Standard syntax */
+
+}
+
+
+
+
+
+/*--- Testing----*/
+
+
+.the-3-rows .row{
+  margin-bottom: 20px;
+}
+.about .row{
+  margin-left:20px;
+  margin-right:20px;
+}
+.col-md-3 h4{
+  padding-top: 45px;
+  text-align: justify;
+}
+.ui {
+ padding-right:9%;
+  padding-left:3%;
+}
+.ue{
+  padding-right:20%;
+}
+.br{
+  padding-left:12%;
+
+}
+
+h5{
+  text-align: center;
+}
+.Branding{
+  margin-left: 10%;
+  padding-top: 13%;
+}
+.UE{
+margin-left: 10%;
+padding-top: %;
+}
+.UI{
+margin-left:10%;
+padding-top: 6%;
+}
+.business-caps{
+  margin:0;
+  text-align: center;
+}
+
+ul.business{
+  margin: 0;
+}
+.business li{
+  list-style: none;
+  display:inline;
+  margin:0 auto;
+}
+.business-caps li{
+  list-style: none;
+  display:inline-block;
+  margin:0 auto;
+}
+.busi img{
+  height: 20%;
+  width: 20%;
+}
+
+
+
+ul.softwares{
+  margin: 0;
+}
+ul.softwares li{
+  list-style: none;
+  display: inline-block;
+  margin-left: -5%;
+}*/
+ .col-md-3 h4{
+  font-size: 22px;
+  margin-top: 50px;
+}
+.icons img{
+height: 50%;
+width: 50%;
+}
+.three{
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.header{
+  margin-left: 20px;
+  margin-right:20px;
+  margin-top: 20px;
+}
+.blue-banner{
+  height:855px;
+}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+      .icons{
+
+      }
+    }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+@media (max-width: 1199px){
+  .at{
+    padding-left:30%;
+  }
+  .icons{
+    margin-bottom:2%;
+  }
+                }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .inner-about p{
+             font-size:15px;
+                      }
+      .the-3-rows{
+        margin-left:20%;
+                 }
+      .the-3-rows h4{
+        margin-left:-35%;
+        margin-bottom:10%;
+        text-align:center;
+                    }
+      .at{
+        padding-left:29%;
+                    }
+      .icons{
+        margin-bottom:15px;
+            }
+    }
+@media only screen and (max-width:958px){
+  .about{
+    textalign:center;
+  }
+  body{
+    margin-right:-30%;
+  }
+}
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    .at {
+       padding-left:0%;
+      }
+      ul.softwares{
+       padding-right:22%;
+      }
+      .the-3-rows h4{
+        padding-left:15%;
+      }
+      .rows{
+        width:70%;
+        margin:auto;
+      }
+      .banner h2{
+        font-size:5rem;
+      }
+      .banner em{
+        font-size:11px;
+      }
+
+      .banner{
+        /*width:50%;*/
+      }
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+      .icons {
+       padding-left:10%;
+      }
+      .softwares{
+        text-align:center;
+      }
+      .the-3-rows h4{
+        text-align:center;
+      }
+      body{
+        margin-right:-30%;
+      }
+      #contactme p{
+        font-size:15px;
+      }
+      #gmail p{
+        font-size:20px;
+      }
+      .talk p{
+        padding-bottom:20px;
+      }
+
+      .ue h5{font-size:50%;}
+      .ui h5{font-size:50%;}
+      .br h5{font-size:50%;}
+      .ue{padding-right:0%;}
+      .ui{padding-left:15%;padding-right:0%;}
+      .br{}
+      .banner{
+        min-width:50%;
+        padding-top:-80%;
+             }
+      header{
+        padding-bottom:102%;
+      }
+
+
+    }
