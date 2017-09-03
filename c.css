@@ -1,0 +1,19 @@
+.container{
+  display:inline-block;
+  height: 950px;
+  background-image: url('img/cv.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0.5% 35%;
+}
+body{
+  background: #730D38; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#730D38, #0a141e); /* For Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#730D38, #0a141e); /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient(#730D38, #0a141e); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#730D38, #0a141e); /* Standard syntax */
+}
+.bt{
+  display: inline-block;
+  margin-top: 450px;
+}
