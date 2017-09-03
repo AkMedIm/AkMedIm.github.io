@@ -16,16 +16,19 @@
 }
 body{
 
-  background-color: yellow;
-  background-image: url('img/bgg1.png');
+
+  background-image: url('img/bgg3.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
 }
-.all{
-  filter: drop-shadow(0px 15px 15px  Black);
-}
+/*.all{
+  -moz-filter: drop-shadow(0px 15px 15px  Black);
+  -webkit-filter: drop-shadow(0px 15px 15px  Black);
+  filter: drop-shadow(0px 0px 5px  Black);
+}*/
+
 
                     /*--- ///////Start Of Scroll Top/////// ---*/
 
@@ -42,9 +45,7 @@ body{
   border-radius: 30px;
 }
 
-#myBtn:hover {
-/*  background-color: skyblue;*/
-}
+
 
 
 
@@ -57,6 +58,8 @@ body{
 
 #logo{
   margin-left: 10%;
+  -moz-animation: rotation 10s infinite  ease-out ;
+  -webkit-animation: rotation 10s infinite  ease-out ;
   animation: rotation 10s infinite  ease-out ;
 }
 #logo:hover + #myname{
@@ -83,25 +86,17 @@ opacity: 1;
   margin-left: auto;
   margin-right: auto;
 
-  /*background-color: #41D8D1;*/
-/*  background-image: url('img/shutterstock_662086246.jpg');
-  background-repeat: no-repeat;
-  background-size: contain ;
-  background-position: center;*/
+
  }
  .header{
-   /*background-color: #41D8D1;*/
-    /*background-image: url('img/landing1.png');*/
     background-image: url('img/LAAANDING1.png');
-    /*background-color: white;*/
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 77vh;
 
-   /*margin-left: 20px;
-   margin-right:20px;
-   margin-top: 20px;*/
+
  }
  #landing{
   display: flex;
@@ -166,10 +161,6 @@ opacity: 1;
   background-color: #F6F6F6;
  }
  #landing #button:hover{
-/*   padding: 10px 30px;
-   font-size: 19px;*/
-
-  /*background: #F6F6F6;*/
    border: white 1px solid;
   color:white;
 }
@@ -180,9 +171,7 @@ opacity: 1;
 #landing p{
   font-size: 15px;
 }
-.navbar{
-  /*background-color: white;*/
-}
+
 #mainNav a{
   opacity: 0.4;
   color:white;
@@ -195,7 +184,6 @@ opacity: 1;
   text-decoration-line: overline;
 }
 .navbar-nav {
-  /*margin-left: 68%;*/
 
   margin-left: auto;
   width: 50%;
@@ -326,10 +314,21 @@ p{
 }
 
 
+@-moz-keyframes rotation {
+    0%, 40% { -moz-transform: rotate(0deg); }
+    90%, 100% { -moz-transform: rotate(1080deg); }
+}
+
+@-webkit-keyframes rotation {
+    0%, 40% { -webkit-transform: rotate(0deg); }
+    90%, 100% { -webkit-transform: rotate(1080deg); }
+}
+
 @keyframes rotation {
     0%, 40% { transform: rotate(0deg); }
     90%, 100% { transform: rotate(1080deg); }
 }
+
 
  .retract:hover {
   filter: blur(5px);
@@ -397,7 +396,7 @@ background-color:white;
   margin-top: 0.7%;
   width: 70%;
   text-align: justify;
-  /*margin-bottom: 100px;*/
+
 }
 #landing h1{
   font-family: 'Poiret One', 'philosopher';
@@ -413,11 +412,7 @@ h1{
   padding-top: 20px;
 }
 
-.jb{
-  /*margin-left: 15px;
-  margin-right: 15px;*/
 
-}
  .titles {
      font-family: 'Poiret One', 'philosopher';
 }
@@ -480,15 +475,7 @@ img .card-img-top{
   line-height: 5;
 }
 
-.three{
-  /*margin-left: 7px;
-  margin-right: 7px;*/
 
-
-}
-.jb{
-  /*margin-bottom: 50px;*/
-}
 
 ul.softwares{
   margin-top: 10px;
@@ -517,7 +504,7 @@ ul.softwares li{
 
 
 .the-3-rows-color{
-  background-color: white /*#C1BDB4*/;
+  background-color: white ;
   width: 70%;
 }
 
@@ -545,7 +532,8 @@ ul.softwares li{
 #flipbook{opacity:0.89 ;background-image: url('img/book1.png');background-position: center;}
 
 .softwares div.back{
-  transform: rotateY(90deg);
+   -moz-transform: rotateY(90deg);
+   -webkit-transform: rotateY(90deg);
 }
 
 .softwares div.front{
@@ -553,18 +541,29 @@ ul.softwares li{
 }
 
 .softwares li:hover div.front{
-  animation: flip 0.5s ease-in forwards;
+   -moz-animation: flip 0.5s ease-in forwards;
+   -webkit-animation: flip 0.5s ease-in forwards;
   opacity: 0;
 }
 .softwares li:hover div.back{
-  animation: flip 0.5s ease-in-out forwards ;
+   -moz-animation: flip 0.5s ease-in-out forwards ;
+   -webkit-animation: flip 0.5s ease-in-out forwards ;
+}
+
+@-moz-keyframes flip {
+  0%{ -moz-transform: rotateY(0deg);}
+  100%{-moz-transform: rotateY(90deg);}
+}
+
+@-webkit-keyframes flip {
+  0%{ -webkit-transform: rotateY(0deg);}
+  100%{-webkit-transform: rotateY(90deg);}
 }
 
 @keyframes flip {
   0%{ transform: rotateY(0deg);}
   100%{transform: rotateY(90deg);}
 }
-
 
 
 
@@ -592,8 +591,6 @@ ul.softwares li{
 
   background: #DDC963;
 
-  /*margin-left: 20px;
-  margin-right: 20px;*/
 }
 
 
@@ -615,10 +612,6 @@ ul.softwares li{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  /*background-image: url('img/Asset 46.png');
-  background-size:contain;
-  background-position: bottom;
-  background-blend-mode : screen;*/
   background: #004453;
 }
 
@@ -712,10 +705,6 @@ ul .social{
 }
 
 
-/*footer{
-  margin-left: 20px;
-  margin-right: 20px;
-}*/
 .copyright p{
   width: 70%;
   margin-left: auto;
@@ -724,24 +713,16 @@ ul .social{
   text-align: center;
   color: #d9dadb;
   margin-bottom: 0px;
-  /*padding-bottom: 10px;*/
-  /*height: 50px;*/
-  /*line-height: 4;*/
 }
 .copyright{
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  /*  background: #2C3E50; /* For browsers that do not support gradients */
-  /*  background: -webkit-linear-gradient(#2C3E50, #0a141e); /* For Safari 5.1 to 6.0 */
-  /*  background: -o-linear-gradient(#2C3E50, #0a141e); /* For Opera 11.1 to 12.0 */
-  /*  background: -moz-linear-gradient(#2C3E50, #0a141e); /* For Firefox 3.6 to 15 */
-  /*  background: linear-gradient(#2C3E50, #0a141e); /* Standard syntax */
-
+  background-color:#2C3E50;
 }
 
 footer{
-  opacity: 0.88;
+  opacity: 0.98;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -864,14 +845,7 @@ footer .up{
           height: 70px;
           width: 70px;
         }
-        #logo img{
 
-
-
-        }
-        a #lg{
-
-        }
         .header{
 
           height: 50vh;
