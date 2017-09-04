@@ -172,13 +172,13 @@ opacity: 1;
 }
 
 #mainNav a{
-  opacity: 0.4;
+  opacity: ;
   color:white;
 
 
 }
 #mainNav a:hover{
-  opacity: 1;
+  opacity: ;
   color:white;
   text-decoration-line: overline;
 }
@@ -189,7 +189,7 @@ opacity: 1;
 }
 
 .nav-item {
-  margin-right: 10%;
+  margin-right: 6%;
 }
 
  .navbar-nav a{
@@ -816,6 +816,16 @@ footer .up{
         #me {
           height: 50%;
           width: 50%;
+        }
+        .navbar-nav{
+
+        }
+        #mainNav{
+          margin-left: -14%;
+          margin-right: inherit;
+          width: 127.5%;
+          opacity:0.5;
+          background-color: black;
         }
         .carre_couleur{
           width: 120px;
