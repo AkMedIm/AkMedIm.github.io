@@ -28,8 +28,8 @@ body{
 
                 /*--- ///////Start Of Scroll Top/////// ---*/
 #bt{
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
 }
 #myBtn  {
   display: none;
@@ -41,7 +41,7 @@ body{
   outline: none;
   cursor: pointer;
   padding: 15px;
-  border-radius: 30px;
+
 }
 
 
@@ -173,13 +173,13 @@ opacity: 1;
 
 #mainNav a{
   opacity: ;
-  color:white;
-
-
+  color:black;
 }
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..")}
 #mainNav a:hover{
   opacity: ;
-  color:white;
+  color:grey;
   text-decoration-line: overline;
 }
 .navbar-nav {
@@ -812,7 +812,13 @@ footer .up{
     /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
+    @media only screen and (max-width :1342px){
+      .nav-item{
+        font-size: 10px;
+      }
+    }
+    @media only screen and (max-width :1200px) {
+
         #me {
           height: 50%;
           width: 50%;
@@ -820,16 +826,7 @@ footer .up{
         .clients{
           width: 100%;
         }
-        .navbar-nav{
 
-        }
-        #mainNav{
-          margin-left: -14%;
-          margin-right: inherit;
-          width: 127.5%;
-          opacity:0.5;
-          background-color: black;
-        }
         .carre_couleur{
           width: 120px;
           height: 125px;
@@ -877,19 +874,21 @@ footer .up{
           height:50px ;
           margin-top: 30px;
         }
-        .navbar{
-          height: 5px;
-        }
+
         #logo{
           height: 70px;
           width: 70px;
         }
-
-        .header{
-
-          height: 50vh;
-          background-size: cover;
+        img#lg{
+          height: 40px;
+          width: 65px;
+          margin-top: 12%;
         }
+        a#logo{
+          /*position: inherit;*/
+        }
+
+
         ul.softwares{
 
           width: 100%;
@@ -979,13 +978,26 @@ footer .up{
         width: 100%;
       }
       #myBtn{
-        width: 15%;
-        right: 10px;
-
-
+        width: 5%;
+        height: 7%;
+        right: 25px;
+        margin-right: 6%;
+        opacity: 0.8;
       }
-
+      #bt{
+        height: 50px;
+        width: 50px;
+      }
+      .collapse .navbar-nav{
+        width: inherit;
+      }
+       span.navbar-toggler-icon{
+        height: 15px;
+        width: 15px;
+      }
       .header{
+        height: 50vh;
+        background-size: cover;
         width: 100%;
         margin-left:  auto;
         margin-right:auto;
@@ -1009,17 +1021,24 @@ footer .up{
       div .navbar-nav {
           width: 70px;
           margin-left: 40px;
+          position: absolute;
       }
-      a .nav-item{
 
-        margin-right:0;
-        width: inherit;
-      }
       .titles{
         font-size: 25px;
       }
       #contactme{
         font-size: 25px;
+      }
+      .navbar-nav a{
+        border-bottom: 1px solid skyblue;
+      }
+      #mainNav{
+        position: absolute;
+        margin-top: 90%;
+        padding-top: 10%;
+
+        padding-right: 50%;
       }
 
     }
@@ -1044,7 +1063,9 @@ footer .up{
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
 
-
+      .nav-item{
+        font-size: 13px;
+      }
 
 
 
