@@ -1059,6 +1059,237 @@ footer .up{
     }
 @media only screen and (max-width:958px){
 
+          #me {
+            height: 50%;
+            width: 50%;
+          }
+          .clients{
+            width: 100%;
+          }
+
+          .carre_couleur{
+            width: 120px;
+            height: 125px;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-radius: 15px;
+          }
+        .big_acced{
+          font-size: 12px
+        }
+        .acced .big_acced{
+          width:1%;
+        }
+        .carre_couleur .retract{
+          width: 120px;
+          height: 120px;
+          border-radius:10px ;
+        }
+        .fond .thethree{
+          margin-top: 5%;
+          margin-bottom: 5%;
+        }
+        .the-3-rows{
+          width: 100%;
+        }
+        .projects{
+          width: 100%;
+        }
+        #talk{
+          width: 100%;
+        }
+          #im1{
+
+            width: 90px;
+            height: 90px;
+            margin-top: 9px;
+          }
+          #im2{
+            width: ;
+            height:50px ;
+            margin-top: 30px;
+          }
+          #im3{
+            width: ;
+            height:50px ;
+            margin-top: 30px;
+          }
+
+          #logo{
+            height: 70px;
+            width: 70px;
+          }
+          img#lg{
+            height: 40px;
+            width: 65px;
+            margin-top: 12%;
+          }
+          a#logo{
+            /*position: inherit;*/
+          }
+          .clients{
+            height: 400px;
+          }
+
+
+          ul.softwares{
+
+            width: 100%;
+            margin-left:  inherit;
+            margin-right:  inherit;
+          }
+          .row .listt{
+            margin-left:  4%;
+            margin-right:  ;
+          }
+          .row .list{
+            margin-left: auto;
+            margin-right: auto;
+          }
+          #myname{
+            font-size: 10px
+          }
+          .front{
+            width:40px;
+            height:40px;
+          }
+          .back{
+            width: 40px;
+            height: 40px;
+          }
+          .fond{
+            width: 100%;
+          }
+          .about{
+            width: 100%;
+          }
+          #landing #button{
+            font-size: 9px;
+            padding: 5px 10px;
+            border-radius: 7px;
+          }
+          .banner h1{
+            font-size: 35px;
+            padding: 0 0 0 0;
+          }
+          .banner-text{
+            margin-top: auto;
+          }
+          .blue-banner{
+            height: auto;
+          }
+          .card-block h3{
+            font-size: 11px;
+            text-align: center;
+          }
+          .card{
+            height: 70%;
+            width: 70%;
+          }
+
+        .card-row .card{
+          margin: auto;
+        }
+        .copyright p{
+          font-size: 9px;
+        }
+        .inner-about p {
+          font-size: 12px;
+        }
+        .list{
+          margin:0 0 0 10px;
+          padding: 0 0 0 0;
+        }
+        .what-i-do h4{
+          text-align: center;
+        }
+     .copyright{
+          height: 27px;
+          width: auto;
+        }
+        #gmail img{
+          width: 50%;
+        }
+        .carousel-img{
+          width: inherit;
+          height: 50%;
+        }
+        .about{
+          height: 320px;
+        }
+        .inner-about p{
+          width: 100%;
+        }
+        #myBtn{
+          width: 5%;
+          height: 7%;
+          right: 25px;
+          margin-right: 6%;
+          opacity: 0.8;
+        }
+        #bt{
+          height: 50px;
+          width: 50px;
+        }
+        .collapse .navbar-nav{
+          width: inherit;
+        }
+         span.navbar-toggler-icon{
+          height: 15px;
+          width: 15px;
+        }
+        .header{
+          height: 50vh;
+          background-size: cover;
+          width: 100%;
+          margin-left:  auto;
+          margin-right:auto;
+          margin-top: 0;
+        }
+        .jb{
+          margin-left: -7px;
+          margin-right:-7px;
+          }
+        .projects{
+          margin-left: auto;
+          margin-right:auto;
+        }
+        footer{
+          margin-left: auto;
+          margin-right:auto;
+        }
+        .copyright {
+          padding-bottom: 0px;
+        }
+        div .navbar-nav {
+            width: 70px;
+            margin-left: 40px;
+            position: absolute;
+        }
+
+        .titles{
+          font-size: 25px;
+        }
+        #contactme{
+          font-size: 25px;
+        }
+        .navbar-nav a{
+          border-bottom: 1px solid skyblue;
+        }
+        div .navbar-nav{
+          width: 60px;
+          height: auto;
+        }
+        #mainNav{
+          position: absolute;
+          margin-top: 25%;
+          /*padding-top: 9%;*/
+
+          padding-right:inherit;
+          padding-left: inherit;
+        }
+
+
   }
 
 }
@@ -1071,14 +1302,26 @@ footer .up{
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
+      .acced{
+        width: inherit;
+      }
 
+      }
+      .fond{
+        height: 485px;
+      }
+        ul.softwares{
+          /*width: 90%;*/
+          /*margin-left: 25%;*/
+          padding-left: 9%;
+        }
       .nav-item{
         font-size: 13px;
       }
       .row .list{
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 100%;
       }
       .row .listt{
         width: 70%;
@@ -1092,3 +1335,29 @@ footer .up{
 
 
     }
+      @media only screen and (max-width : 360px){
+        .listt{
+          margin-left: ;
+          width: 100%;
+          margin-right:  ;
+        }
+      }
+      @media only screen and (max-width : 320px){
+        .row .listt{
+          margin-left: 5%;
+          width: 100%;
+          margin-right:  ;
+        }
+        .row .list{
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        ul.softwares{
+         padding: 0px;
+        }
+        .fond{
+          height: 500px;
+        }
+
+      }
