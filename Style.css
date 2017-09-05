@@ -792,6 +792,7 @@ footer .up{
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
 
+
     }
 
     /* Small Devices, Tablets */
@@ -1036,12 +1037,17 @@ footer .up{
       .navbar-nav a{
         border-bottom: 1px solid skyblue;
       }
+      div .navbar-nav{
+        width: 60px;
+        height: auto;
+      }
       #mainNav{
         position: absolute;
-        margin-top: 30%;
-        /*padding-top: 15%;*/
+        margin-top: 25%;
+        /*padding-top: 9%;*/
 
-        padding-right: 50%;
+        padding-right:inherit;
+        padding-left: inherit;
       }
 
     }
@@ -1069,7 +1075,20 @@ footer .up{
       .nav-item{
         font-size: 13px;
       }
+      .row .list{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+      .row .listt{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .header{
+        height: 80vh;
 
+      }
 
 
     }
