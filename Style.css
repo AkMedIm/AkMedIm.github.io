@@ -1038,8 +1038,8 @@ footer .up{
       }
       #mainNav{
         position: absolute;
-        margin-top: 90%;
-        padding-top: 10%;
+        margin-top: 30%;
+        /*padding-top: 15%;*/
 
         padding-right: 50%;
       }
